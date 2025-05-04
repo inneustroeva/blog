@@ -1,39 +1,35 @@
 ---
-title: 
-summary:
-tags:
-  - Demo
-date: "2016-04-27T00:00:00Z"
+# Documentation: https://docs.hugoblox.com/managing-content/
 
+title: "Stepik1"
+subtitle: ""
+summary: ""
+authors: []
+tags: []
+categories: []
+date: 2025-05-04T20:24:13+03:00
+lastmod: 2025-05-04T20:24:13+03:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: Photo by Toa Heftiba on Unsplash
-  focal_point: Smart
-  
-  
-# Optional external URL for project (replaces project detail page).
-external_link: ''
+  caption: ""
+  focal_point: ""
+  preview_only: false
 
-image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
-
-links:
-  - icon: 
-    icon_pack: fab
-    name: 
-    url: 
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: 
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
 ---
+
+Hello everyone, I recently took a course in Computer science and today I want to leave a post about it. 
+Today I'm going to talk about Online Security. 🖥💡☑️🔗🔐
 
 # How the Internet works: The basics of the TCP/IP model
 

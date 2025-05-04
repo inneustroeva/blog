@@ -1,13 +1,43 @@
 ---
-title: External Project
-summary:
-tags:
-  - Demo
-date: "2016-04-27T00:00:00Z"
+# Documentation: https://docs.hugoblox.com/managing-content/
 
+title: "Stepik 1"
+summary: ""
+authors: [Neustroeva Irina]
+tags: []
+categories: []
+date: 2025-05-04T22:07:55+03:00
+
+# Optional external URL for project (replaces project detail page).
+external_link: ""
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: Photo by Toa Heftiba on Unsplash
-  focal_point: Smart
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+# Custom links (optional).
+#   Uncomment and edit lines below to show custom links.
+# links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
+
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ""
 ---
 # Цель работы
  
@@ -19,19 +49,33 @@ image:
 
 Протокол HTTP(S) протокол прикладного уровня, ответ на вопрос 1 - HTTPS (рис. [-@fig:001]).
 
-![Вопрос 2.1.1](image/1.png){#fig:001 width=70%}
+image: featured.png1
+  caption: "featured.png1"
+  focal_point: "featured.png1"
+  preview_only: truth
+
 
 На транспортном уровне существует два примера протокола: первый - это TCP, в честь которого названа модель. (рис. [-@fig:002]).
 
-![Вопрос 2.1.2](image/2.png){#fig:002 width=70%}
+image:featured.png2
+  caption: "2"
+  focal_point: "Bottom"
+  preview_only: false
+
 
 Т.к адрес состоит из большего набора чисел, а именно это 4 или 6 цифер от 0 до 255. В двух вариантах встречаются цифры больше 255, что неверно(рис. [-@fig:003]).
 
-![Вопрос 2.1.3](image/3.png){#fig:003 width=70%}
+image:featured.png3 )))
+  caption: "3"
+  focal_point: "Bottom"
+  preview_only: false
 
 Основная задача DNC это сопоставлять название ( доменное имя, с корекстым IP-адресом) с тем, где лежит этот сервер, этот сайт. (рис. [-@fig:004]).
 
-![Вопрос 2.1.4](image/4.png){#fig:004 width=70%}
+image:featured.png4
+  caption: "4"
+  focal_point: "Bottom"
+  preview_only: false
 
 Классификация протоколов в модели TCP/IP:
 
@@ -43,21 +87,33 @@ image:
 
 - Уровень сетевого доступа (Канальный) (Link Layer): Ethernet, IEEE 802.11, WLAN, SLIP, Token Ring, ATM и MPLS(рис. [-@fig:005]).
 
-![Вопрос 2.1.5](image/5.png){#fig:005 width=70%}
+image:featured.png5
+  caption: "5"
+  focal_point: "Bottom"
+  preview_only: false
 
 Протокол http передает не зашифрованные данные, а протокол https уже будет передавать зашифрованные данные (рис. [-@fig:006]).
 
  https передает зашифрованные данные, поэтому  одна из фаз это передача данных, другая должна быть рукопожатием
  
- ![Вопрос 2.1.6](image/6.png){#fig:006 width=70%}
+ image:featured.png6
+  caption: "6"
+  focal_point: "Bottom"
+  preview_only: false
 
 TLS определяется и клиентом, и сервером, чтобы было возможно подключиться (рис. [-@fig:007]).
 
-![Вопрос 2.1.7](image/7.png){#fig:007 width=70%}
+image:featured.png7
+  caption: "7"
+  focal_point: "Bottom"
+  preview_only: false
 
 TLS определяется клиентом и сервером, чтобы возможно было подключиться (рис. [-@fig:008]).
 
-![Вопрос 2.1.8](image/8.png){#fig:008 width=70%}
+image:featured.png8
+  caption: "8"
+  focal_point: "Bottom"
+  preview_only: false
 
 Фаза рукопожатия вкючает в себя: 
 
@@ -67,65 +123,108 @@ TLS определяется клиентом и сервером, чтобы в
 
 Следовательно вариант с шифрованием лишний (рис. [-@fig:009]).
 
-![Вопрос 2.1.9](image/9.png){#fig:009 width=70%}
+image:featured.png9
+  caption: "9"
+  focal_point: "Bottom"
+  preview_only: false
 
 ## Персонализация сети
 
 Куки хранят в себе список параметров и их значений. Этими параметрами могут быть id пользователя, id сессии, тип браузера и некоторые действия пользователей(рис. [-@fig:010]).
 
-![Вопрос 2.2.1](image/10.png){#fig:010 width=70%}
+image:featured.png10
+  caption: "10"
+  focal_point: "Bottom"
+  preview_only: false
 
 Куки не делают соединение надежным (рис. [-@fig:011]).
 
-![Вопрос 2.2.2](image/11.png){#fig:011 width=70%}
+image:featured.png11
+  caption: "11"
+  focal_point: "Bottom"
+  preview_only: false
 
 Куки генерируются сервером(рис. [-@fig:012]).
 
-![Вопрос 2.2.3](image/12.png){#fig:012 width=70%}
+image:featured.png12
+  caption: "12"
+  focal_point: "Bottom"
+  preview_only: false
 
 Куки бывают сессионные, удаляются при закрытии окна браузера (рис. [-@fig:013]).
 
-![Вопрос 2.2.4](image/13.png){#fig:013 width=70%}
+image:featured.png13
+  caption: "13"
+  focal_point: "Bottom"
+  preview_only: false
 
 ## Браузер TOR. Анонимизация
 
 В луковой модели маршрутизации у нас тоже есть узлы. Они разделяются на охранный узел, промежуточный и выходной. В браузере Tor всегда есть три роутера, их не больше и не меньше (рис. [-@fig:014]).
 
-![Вопрос 2.3.1](image/14.png){#fig:014 width=70%}
+image:featured.png14
+  caption: "14"
+  focal_point: "Bottom"
+  preview_only: false
 
 IP-адрес не должен быть известен охранному и промежуточному узлам (рис. [-@fig:015]).
 
-![Вопрос 2.3.2](image/15.png){#fig:015 width=70%}
+image:featured.png15
+  caption: "15"
+  focal_point: "Bottom"
+  preview_only: false
 
 В анонимных сетях, таких как Tor, общий секретный ключ для сквозного шифрования требует участия всех трех типов узлов: охранного, промежуточного и выходного. Охранный узел сам по себе не обеспечивает генерацию ключа. Каждый узел вносит свой вклад в криптографический протокол (например, Diffie-Hellman), обеспечивая анонимность и защиту от перехвата. (рис. [-@fig:016]).
 
-![Вопрос 2.3.3](image/16.png){#fig:016 width=70%}
+image:featured.png16
+  caption: "16"
+  focal_point: "Bottom"
+  preview_only: false
 
 Для получения пакетов не нужно использовать TOR. TOR — это технология, которая позволяет с некоторым успехом скрыть личность человека в интернете.(рис. [-@fig:017]).
 
-![Вопрос 2.3.4](image/17.png){#fig:017 width=70%}
+image:featured.png17
+  caption: "17"
+  focal_point: "Bottom"
+  preview_only: false
 
 ## Беспроводные сети Wi-fi
 
 WiFi - это технология беспроводной локальной сети, она основана на стандарте IEEE 802.11 (рис. [-@fig:018]).
 
-![Вопрос 2.4.1](image/18.png){#fig:018 width=70%}
+image:featured.png18
+  caption: "18"
+  focal_point: "Bottom"
+  preview_only: false
 
 WiFi работает на самом нижнем канальном уровне (рис. [-@fig:019]).
 
-![Вопрос 2.4.2](image/19.png){#fig:019 width=70%}
+image:featured.png19
+  caption: "19"
+  focal_point: "Bottom"
+  preview_only: false
 
 WEP - устаревший и небезопасный метод шифрования WiFi из-за короткой длины ключа (40 бит), что делает его легко взламываемым. Использовать WEP категорически не рекомендуется.(рис. [-@fig:020]).
 
-![Вопрос 2.4.3](image/20.png){#fig:020 width=70%}
+image:featured.png20
+  caption: "20"
+  focal_point: "Bottom"
+  preview_only: false
+
 
 Безопасность WiFi подразумевает защиту передачи данных между устройством (телефон, компьютер) и роутером (подключенным к интернету), осуществляемую с помощью шифрования и аутентификации.(рис. [-@fig:021]).
 
-![Вопрос 2.4.4](image/21.png){#fig:021 width=70%}
+image:featured.png21
+  caption: "21"
+  focal_point: "Bottom"
+  preview_only: false
 
 WPA2 Personal предназначен для домашнего использования, а WPA2 Enterprise - для коммерческих организаций. (рис. [-@fig:022]).
 
-![Вопрос 2.4.5](image/22.png){#fig:022 width=70%}
+image:featured.png22
+  caption: "22"
+  focal_point: "Bottom"
+  preview_only: false
 
 
 # Выводы

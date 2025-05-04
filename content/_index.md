@@ -44,7 +44,7 @@ sections:
       username: admin
   - block: skills
     content:
-      title: Skills
+      title: Skill
       text: ''
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
@@ -62,27 +62,27 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: Student of the Business in Computer Science group
+          company: RUDN
+          company_url: 'https://www.rudn.ru/'
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Moscow
+          date_start: '2023-09-01'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Mathematics
+              * Computer science
+              * General education subjects
+        - title: A student of the 11th grade
+          company: School № 89 with in-depth study of individual subjects
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Izhevsk
+          date_start: '2012-09-01'
+          date_end: '2023-05-31'
+          description: 
     design:
       columns: '2'
   - block: accomplishments
@@ -100,30 +100,30 @@ sections:
       items:
         - certificate_url: https://www.coursera.org
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2023-09-01'
           description: ''
           icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          organization: RUDN
+          organization_url: https://www.rudn.ru/
+          title: Studying at the Peoples' Friendship University of Russia in the field of Business in Computer Science
           url: ''
         - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
+          date_end: '2023-04-14'
+          date_start: '2021-05-01'
+          description: 'All-Russian Olympiad of Schoolchildren in physical culture'
           icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
+          organization: All-Russian Olympiad of Schoolchildren
+          organization_url: https://всеросс.апо.рф/
+          title: Availability of 3 diplomas of the All-Russian Olympiad
+          url: https://всеросс.апо.рф/
+        - certificate_url: 
+          date_end: '2023-05-31'
+          date_start: '2012-09-01'
+          description: 'Obtaining secondary general education'
           icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          organization: School № 89 with in-depth study of individual subjects
+          organization_url: https://89-izh.gosuslugi.ru/
+          title: 'Obtaining a certificate with a silver medal'
           url: ''
     design:
       columns: '2'
